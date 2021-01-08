@@ -3,8 +3,8 @@ import './game.css';
 
 import Board from './components/Board';
  
-  class Game extends React.Component {
-    render() {
+export default function Game(){
+    
       return (
         <div className="game">
           <div className="game-board">
@@ -16,8 +16,4 @@ import Board from './components/Board';
           </div>
         </div>
       );
-    }
-  }
-
-  export default Game;
-  
+}
